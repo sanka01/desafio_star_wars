@@ -81,7 +81,7 @@ const Personagens = () => {
                 value={busca}
                 onChange={(e) => setBusca(e.target.value)}
             />
-            <button onClick={handleSearch}>Confirmar Pesquisa</button>
+            <button onClick={handleSearch}>Pesquisar</button>
             <table border="1">
                 <thead>
                     <tr>

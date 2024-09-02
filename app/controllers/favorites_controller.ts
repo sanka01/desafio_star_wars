@@ -38,16 +38,12 @@ export default class FavoritesController {
     }
   }
 
-  /**
-   * Display form to create a new record
-   */
-  async create({ request, response }: HttpContext) {
-  }
+
 
   /**
    * Handle form submission for the create action
    */
-  async store({ request, response }: HttpContext) {
+  async store({ request }: HttpContext) {
     const { id_star_wars } = request.only(['id_star_wars'])
 
     try {
@@ -65,21 +61,6 @@ export default class FavoritesController {
       return error
     }
   }
-
-  /**
-   * Show individual record
-   */
-  async show({ params }: HttpContext) { }
-
-  /**
-   * Edit individual record
-   */
-  async edit({ params }: HttpContext) { }
-
-  /**
-   * Handle form submission for the edit action
-   */
-  async update({ params, request }: HttpContext) { }
 
   /**
    * Delete record
