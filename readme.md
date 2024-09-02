@@ -70,4 +70,11 @@ Por fim, inicie o servidor de desenvolvimento com o comando:
 npm run dev
 ```
 
-O servidor estará em execução na URL `http://localhost:3333/favorites`.
+O servidor estará em execução na URL `http://localhost:3333/`.
+
+
+## Utilização
+
+o projeto se concentra em duas telas: a tela Home no link `http://localhost:3333` possui a listagem de todos os personagens e um botão para favorita-los, enquanto a tela Favorites no link `http://localhost:3333/favorites` possui a listagem dos favoritos do usuario e a opção de exclui-los
+
+em ambas as telas existe uma função de busca por nome
