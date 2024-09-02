@@ -1,7 +1,8 @@
 ```markdown
 # StarWars Project
 
-Projeto desenvolvido como desafio para vaga de desenvolvedor fullStack na superADM BB, o projeto faz uso da API https://swapi.dev/ para gerar uma listagem dos personagens de star wars e permite a criação de uma lista de favoritos.
+Projeto desenvolvido como desafio para vaga de desenvolvedor fullStack na superADM BB,
+o projeto faz uso da API https://swapi.dev/ para gerar uma listagem dos personagens de star wars e permite a criação de uma lista de favoritos.
 
 ```
 # Instalação Local
